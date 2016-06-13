@@ -1,7 +1,19 @@
 var app = app || {};
 $(document).ready(function() {
-	console.log('ready');
- 	console.log(app.LibraryView());
- 	//var book = new app.LibraryView();
- 	
+	var bookList = [
+	{
+		title:'JavaScript Good Parts',
+		author: 'Cockford'
+	},
+	{
+		title: 'Backbone.js',
+		author: 'Addyosmani'
+	},
+	{
+		title: 'Angular.js',
+		author: 'Paul'
+	}
+
+	];
+	new app.LibraryView(bookList);
 });
