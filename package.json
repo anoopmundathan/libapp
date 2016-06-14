@@ -1,0 +1,25 @@
+{
+  "name": "libapp",
+  "version": "1.0.0",
+  "description": "A library application for managing digital books using Backbonejs # Credits [Addyosmani](https://addyosmani.com/backbone-fundamentals/#exercise-2-book-library---your-first-restful-backbone.js-app)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anoopmundathan/libapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anoopmundathan/libapp/issues"
+  },
+  "homepage": "https://github.com/anoopmundathan/libapp#readme",
+  "devDependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "mongoose": "^4.5.0",
+    "path": "^0.12.7"
+  }
+}
